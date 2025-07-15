@@ -1,6 +1,6 @@
 {
   "name": "react-native-apple-ui-clock",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Apple-style clock and alarm components for React Native",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -43,7 +43,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/react-native-apple-ui-clock.git"
+    "url": "https://github.com/adityaranjan006/AppleClock"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
