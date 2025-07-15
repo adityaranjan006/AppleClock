@@ -3,8 +3,8 @@
 ## Before Publishing
 
 1. **Update package.json**:
-   - Change `"author"` to your name
-   - Update `"repository"` URL to your GitHub repo
+   - Change `"Aditya Ranjan"` to your name
+   - Update `"https://github.com/adityaranjan006/AppleClock"` URL to your GitHub repo
    - Ensure version is correct (use semantic versioning)
 
 2. **Test the package locally**:
