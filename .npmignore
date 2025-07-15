@@ -40,4 +40,7 @@ __tests__/
 
 # Other
 *.log
-*.tgz 
+*.tgz
+
+# Include working_SS.jpg screenshot in package
+!working_SS.jpg 

@@ -15,7 +15,8 @@
   "files": [
     "lib/",
     "src/",
-    "README.md"
+    "README.md",
+    "working_SS.jpg"
   ],
   "scripts": {
     "build": "tsc",
