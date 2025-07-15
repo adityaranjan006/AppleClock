@@ -1,11 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import Bedtime from './appleAlarmComponent/Bedtime';
+import { useState } from 'react';
 
 export default function App() {
+  const [bedTime, setBedTime] = useState("8:00 pm");
+  const [alarmTime, setAlarmTime] = useState("8:00 am");
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Bedtime bedTimeSet={setBedTime} alarmTimeSet={setAlarmTime} actualBedTime={bedTime} actualAlarmTime={alarmTime} />
     </View>
   );
 }
