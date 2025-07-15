@@ -1,0 +1,43 @@
+# Development files
+App.tsx
+index.ts
+babel.config.js
+metro.config.js
+tsconfig.json
+
+# Build directories
+android/
+ios/
+.expo/
+node_modules/
+.git/
+
+# Development dependencies
+yarn.lock
+package-lock.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Assets used in development app
+assets/
+
+# Utilities used in development app
+utils/
+
+# Test files
+**/*.test.*
+**/*.spec.*
+__tests__/
+
+# Other
+*.log
+*.tgz 

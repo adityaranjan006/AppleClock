@@ -1,0 +1,21 @@
+import { Vector } from "react-native-redash";
+export declare const PADDING = 24;
+export declare const MARGIN = 12;
+export declare const SIZE: number;
+export declare const STROKE = 40;
+export declare const R: number;
+export declare const PI: number;
+export declare const TAU: number;
+export declare const CENTER: {
+    x: number;
+    y: number;
+};
+export declare const ONE_MINUTE_RAD: number;
+export declare const ONE_HOUR_RAD: number;
+export declare const containedInSquare: (value: Vector, center: Vector, side: number) => boolean;
+export declare const normalize: (value: number) => number;
+export declare const absoluteDuration: (start: number, end: number) => number;
+export declare const radToMinutes: (rad: number) => number;
+export declare const formatDuration: (duration: number) => string;
+export declare const formatDuration2: (duration: number) => string;
+export declare const arc: (x: number, y: number, large?: boolean, sweep?: boolean) => string;

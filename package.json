@@ -1,14 +1,61 @@
 {
-  "name": "appleclock",
+  "name": "react-native-apple-ui-clock",
   "version": "1.0.0",
-  "main": "index.ts",
+  "description": "Apple-style clock and alarm components for React Native",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/index.js",
+      "require": "./lib/index.js",
+      "types": "./lib/index.d.ts"
+    }
+  },
+  "files": [
+    "lib/",
+    "src/",
+    "README.md"
+  ],
   "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
     "start": "expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web"
   },
-  "dependencies": {
+  "keywords": [
+    "react-native",
+    "apple",
+    "clock",
+    "alarm",
+    "bedtime",
+    "circular-slider",
+    "expo",
+    "ios",
+    "android",
+    "ui",
+    "components"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/react-native-apple-ui-clock.git"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.70.0",
+    "react-native-gesture-handler": ">=2.0.0",
+    "react-native-reanimated": ">=3.0.0",
+    "react-native-svg": ">=13.0.0",
+    "expo-haptics": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3",
     "expo": "~53.0.17",
     "expo-haptics": "^14.1.4",
     "expo-status-bar": "~2.2.3",
@@ -22,10 +69,9 @@
     "react-native-svg-transformer": "^1.5.0",
     "use-debounce": "^10.0.5"
   },
-  "devDependencies": {
-    "@babel/core": "^7.25.2",
-    "@types/react": "~19.0.10",
-    "typescript": "~5.8.3"
-  },
-  "private": true
+  "dependencies": {
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-redash": "^18.1.3",
+    "use-debounce": "^10.0.5"
+  }
 }

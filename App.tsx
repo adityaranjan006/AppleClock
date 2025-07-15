@@ -1,6 +1,7 @@
+import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
-import Bedtime from './appleAlarmComponent/Bedtime';
+import Bedtime from './src/appleAlarmComponent/Bedtime';
 import { useState } from 'react';
 
 export default function App() {
