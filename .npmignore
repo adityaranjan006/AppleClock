@@ -27,8 +27,9 @@ package-lock.json
 .DS_Store
 Thumbs.db
 
-# Assets used in development app
+# Assets used in development app (but keep src/assets/)
 assets/
+!src/assets/
 
 # Utilities used in development app
 utils/
