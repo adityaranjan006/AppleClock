@@ -1,6 +1,6 @@
 {
   "name": "react-native-apple-ui-clock",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Apple-style clock and alarm components for React Native",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -16,6 +16,7 @@
     "lib/",
     "src/",
     "README.md",
+    "INSTALLATION.md",
     "working_SS.jpg"
   ],
   "scripts": {
